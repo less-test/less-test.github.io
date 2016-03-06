@@ -1,31 +1,21 @@
 ---
 layout: default
 ---
-
-{% for post in paginator.posts %}
+{% assign sorted_pages = (site.pages | sort: 'order') %}
+{% for file in sorted_pages %}
+{% if file.path contains "/" %}
+{% unless file.path contains "index.md" %}
 <div class="article">
     <div class="well">
-        <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
-        {% if site.comments == true and post.comments == true and site.disqus != '' %}
-          <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
+        <h1><a href="{{ site.baseurl}}{{ file.url }}">{{ file.date | date: "%b %-d, %Y" }} - {{ file.title }}</a></h1>
+        {% if site.comments == true and file.comments == true and site.disqus != '' %}
+          <p class="author"><a href="{{ site.baseurl }}{{ file.url }}/#disqus_thread">Comments</a></p>
         {% endif %}
         <div class="content">
-            {{ post.content }}
+            {{ file.content }}
         </div>
     </div>
 </div>
+{% endunless %}
+{% endif %}
 {% endfor %}
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
-  {% endif %}
-</div>
