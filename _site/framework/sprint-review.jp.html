@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LeSS Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="/css/syntax.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">LeSS Study</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="active visible-xs-block"><a href="/links.html">Links</a></li>
+                    <li class="active"><a href="/archive.html">Archive</a></li>
+                    <li class="active"><a href="/about.html">About</a></li>
+                    <li class="active"><a href="/feed.xml">RSS</a></li>
+                    
+                      <li class="active"><a href="https://github.com/LeSSStudy/works">Github</a></li>
+                    
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div class="sidebar well">
+A LeSS Site for japanease
+</div>
+
+<div class="sidebar well">
+    <h1>Recent Posts</h1>
+    <ul>
+        
+    </ul>
+</div>
+
+<div class="sidebar well">
+<h1>Links</h1>
+<ul>
+  <li><a href="/framework/#">framework</a></li>
+  <li><a href="/principles/#">principles</a></li>
+  <li><a href="/structure/#">structure</a></li>
+  <li><a href="/adoption/#">adoption</a></li>
+  <li><a href="/less-huge/#">less-huge</a></li>
+  <li><a href="/rules/#">rules</a></li>
+</ul>
+
+</div>
+
+        </div>
+        <div class="col-md-9">
+          <div class="article">
+            <div class="well">
+                <h1><a href="/framework/sprint-review.jp"> - スプリントレビュー</a></h1>
+            
+            <div class="post-content">
+            <!---
+The Sprint Review is an inspect-adapt point at the end of the Sprint. During the Sprint Review, customers and stakeholders examine what the teams built during the Sprint and discuss changes and new ideas. Together the Teams, Product Owner and users/customers/stakeholders decide the direction of the product.
+--->
+<p>スプリントレビューは、スプリントの終わりに検査し適応するポイントになります。
+スプリントレビューでは、顧客やステークホルダーは、チームがスプリントで構築したものや、話し合った変更や新しいアイデアを検討する。
+チームとプロダクトオーナーそして、ユーザー／顧客／ステークホルダーと一緒に、プロダクトの方向性を決定します。</p>
+
+<!---
+# Overview of the Sprint Review
+--->
+<p># スプリントレビューの概要</p>
+
+<!---
+The Sprint Review is the occasion for all of the teams to review the *one* potentially shippable Product Increment together. The focus is on the [whole product](../principles/whole-product-focus.html).
+--->
+<p>スプリントレビューは、<em>ひとつ</em> の出荷可能な成果物のインクリメントを一緒に検討する機会です。
+焦点は、<a href="../principles/whole-product-focus.jp.html">製品全体</a> にあります。</p>
+
+<figure>
+  <img src="/img/framework/sprint-review-retrospective.png" alt="sprint-review-retrospective.png" />
+</figure>
+
+<!---
+## Inspect-Adapt and *not* Inspect-Accept
+--->
+<p>## 検査と適応、そして、<em>Not</em> 検査と適応</p>
+
+<!---
+The most common mistake in a Sprint Review is to focus on the Product Owner accepting items from the teams. This is a misunderstanding of the purpose of the Sprint Review and moves it away from [empirical process control](../principles/empirical_process_control.html) towards finding blame. The Sprint Review is an opportunity for everyone to collaborate about the product.
+--->
+<p>スプリントレビューで最も一般的な間違いは、プロダクトオーナーが受け入れるかどうかにフォーカスすることです。
+これは、スプリントレビューの目的の誤解であり、<a href="../principles/empirical_process_control.jp.html">経験的プロセス制御</a> から離れ、非難を見つける方向に向かってしまう。
+スプリントレビューは、誰もがプロダクトについて協調して作業をする機会になります。</p>
+
+<!---
+## Sprint Review Bazaar
+--->
+<p>## スプリントレビューバザール</p>
+
+<!---
+The Sprint Review is best conducted using a diverge-converge meeting pattern. During the diverge periods, use a bazaar. This is analogous to a science fair: A large room has multiple areas, each staffed by team representatives, where the items developed by a team are shown and discussed. Stakeholders visit areas of interest.
+--->
+<p>スプリントレビューは、発散・収束のミーティングパターンで行うのが最良です。
+発散中は、バザールを使用します。
+これはサイエンスフェアに似ています。
+大きな部屋を複数のエリアに分け、各チームの代表者が各エリアで、チームによって開発されたプロダクトバックログアイテムを示し、議論します。
+ステークホルダーは、興味のあるエリアに訪れます。</p>
+
+<!---
+During the converge periods, stakeholders summarize their opinions from the bazaar. A subset of items may be inspected on a common computer projector during this time, also.
+--->
+<p>収束時は、ステークホルダーは、バザールからの意見をまとめます。
+プロダクトバックログアイテムの一部は、この時、共同のプロジェクターで検査することが出来ます。</p>
+
+<!---
+There may be multiple diverge-converge cycles.
+--->
+<p>多様な発散・収束のサイクルがあるかもしれません。</p>
+
+<!---
+## Recommended Reading
+--->
+<p>## 推薦図書</p>
+
+<!---
+* Inspect and Adapt chapter of [Practices for Scaling Agile & Lean Development](http://www.amazon.com/Practices-Scaling-Lean-Agile-Development/dp/0321636406)
+This 40-page chapter covers adoption and also review retrospective. It is also [available online](http://www.informit.com/articles/article.aspx?p=1564482).
+--->
+<ul>
+  <li><a href="http://www.amazon.com/Practices-Scaling-Lean-Agile-Development/dp/0321636406">Practices for Scaling Agile &amp; Lean Development</a>の検査と適応の章
+この章は、検査と適応の採用と、レビューのレトロスペクティブもカバーしています。</li>
+</ul>
+
+            </div>
+            
+            </div>
+          </div>
+          <div class="pagination">
+              
+              
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;2016 LeSS Study. </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+

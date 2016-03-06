@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LeSS Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="/css/syntax.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">LeSS Study</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="active visible-xs-block"><a href="/links.html">Links</a></li>
+                    <li class="active"><a href="/archive.html">Archive</a></li>
+                    <li class="active"><a href="/about.html">About</a></li>
+                    <li class="active"><a href="/feed.xml">RSS</a></li>
+                    
+                      <li class="active"><a href="https://github.com/LeSSStudy/works">Github</a></li>
+                    
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div class="sidebar well">
+A LeSS Site for japanease
+</div>
+
+<div class="sidebar well">
+    <h1>Recent Posts</h1>
+    <ul>
+        
+    </ul>
+</div>
+
+<div class="sidebar well">
+<h1>Links</h1>
+<ul>
+  <li><a href="/framework/#">framework</a></li>
+  <li><a href="/principles/#">principles</a></li>
+  <li><a href="/structure/#">structure</a></li>
+  <li><a href="/adoption/#">adoption</a></li>
+  <li><a href="/less-huge/#">less-huge</a></li>
+  <li><a href="/rules/#">rules</a></li>
+</ul>
+
+</div>
+
+        </div>
+        <div class="col-md-9">
+          <div class="article">
+            <div class="well">
+                <h1><a href="/framework/potentially-shippable-product-increment.jp"> - 出荷可能なプロダクトのインクリメント</a></h1>
+            
+            <div class="post-content">
+            <!---
+The output of every Sprint is called a Potentially Shippable Product Increment. The work of all the teams must be integrated before the end of every Sprint---the integration must be done during the Sprint. This allows:
+--->
+<p>全てのスプリントのアウトプットは、出荷可能なプロダクトのインクリメントと呼ばれている。
+全てのチームの作業は、全てのスプリントの終わりの前に統合する必要があります - 統合はスプリント中に行われる。</p>
+
+<p>これを可能にする:</p>
+
+<!---
+* keeping the [Whole Product Focus](../principles/whole-product-focus.html);
+* increasing [Transparency](../principles/transparency.html) and reducing risk, as we have no surprises in [undone work](definition-of-done.html);
+* increasing flexibility (or agility) by reducing [work in progress](../principles/lean_thinking.html)
+* keeping feedback cycles short so that we can [continuously improve](../principles/continuous-improvement-towards-perfection.html)
+--->
+
+<ul>
+  <li><a href="../principles/whole-product-focus.jp.html">プロダクト全体の焦点</a>を維持する。</li>
+  <li><a href="../principles/transparency.jp.html">透明性</a>を高め、<a href="definition-of-done.jp.html">未完了作業(Undone Work)</a>に驚かず、リスクを低減する。</li>
+  <li>進行中の作業を減らすことで、柔軟性(またはアジリティー)を増加させる</li>
+  <li><a href="../principles/continuous-improvement-towards-perfection.jp.html">継続的に改善</a>出来るように短いフィードバックサイクルを維持する</li>
+</ul>
+
+<!---
+Potentially shippable is a statement about the quality of the software and not about the value or the marketability of the software.” When a product is potentially shippable then that means "that all the work that needs to be done for the currently implemented features has been done and technically the product can be shipped" but it doesn't mean that "the features implemented are valuable enough for the customer to want a new release". The latter is determined by the [Product Owner](product-owner.html).
+--->
+<p>出荷可能とは、ソフトウェアの市場性または価値ではなく、ソフトウェアの品質についての声明である。
+プロダクトが出荷可能であるとは、
+技術的にプロダクトが出荷可能であり、現在実装したフィーチャーに必要な作業が完成していることを意味する。
+実装されたフィーチャーが、新しいリリースをしたい顧客にとって、十分に価値があることを意味してはいない。
+後者は、プロダクトオーナーによって決定される。</p>
+
+<!---
+Whether the product is truly shippable will depend on the current [Definition of Done](definition-of-done.html). If there is a perfect definition of done, then the product can be shipped each Sprint. If the [Definition of Done](definition-of-done.html) is weak, then there will still be work to be done, leading to less transparency, less flexibility and increased development risk.
+--->
+
+<p>プロダクトが本当に出荷可能であるかどうかは、現在の<a href="definition-of-done.jp.html">完成の定義</a>に依存します。
+完全な完成の定義が存在する場合は、そのプロダクトは、各スプリントごとに出荷することが出来ます。
+<a href="definition-of-done.jp.html">完成の定義</a>が弱い場合は、少ない透明性、少ない柔軟性そして、開発リスクの増加につながり、まだ完成させるための作業があります。</p>
+
+            </div>
+            
+            </div>
+          </div>
+          <div class="pagination">
+              
+              
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;2016 LeSS Study. </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+

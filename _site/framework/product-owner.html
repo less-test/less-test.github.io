@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LeSS Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="/css/syntax.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">LeSS Study</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="active visible-xs-block"><a href="/links.html">Links</a></li>
+                    <li class="active"><a href="/archive.html">Archive</a></li>
+                    <li class="active"><a href="/about.html">About</a></li>
+                    <li class="active"><a href="/feed.xml">RSS</a></li>
+                    
+                      <li class="active"><a href="https://github.com/LeSSStudy/works">Github</a></li>
+                    
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div class="sidebar well">
+A LeSS Site for japanease
+</div>
+
+<div class="sidebar well">
+    <h1>Recent Posts</h1>
+    <ul>
+        
+    </ul>
+</div>
+
+<div class="sidebar well">
+<h1>Links</h1>
+<ul>
+  <li><a href="/framework/#">framework</a></li>
+  <li><a href="/principles/#">principles</a></li>
+  <li><a href="/structure/#">structure</a></li>
+  <li><a href="/adoption/#">adoption</a></li>
+  <li><a href="/less-huge/#">less-huge</a></li>
+  <li><a href="/rules/#">rules</a></li>
+</ul>
+
+</div>
+
+        </div>
+        <div class="col-md-9">
+          <div class="article">
+            <div class="well">
+                <h1><a href="/framework/product-owner"> - Product Owner</a></h1>
+            
+            <div class="post-content">
+            <p>The Product Owner role in LeSS is conceptually the same as in one-team Scrum. However, at scale the focus changes slightly toward keeping an overview and ensuring the maximum return on investment (ROI) in the product.</p>
+
+<h2 id="scaled-product-owner">Scaled Product Owner</h2>
+
+<p>It’s common in large-scale product development for different people to pull in different directions and for subgroups to focus on local sub-optimizations. Maintaining one Product Owner with one Product Backlog supports <a href="../principles/whole-product-focus.html">whole-product focus</a>.</p>
+
+<p>In traditional large-scale product groups, there’s a group (often product managers) that focuses outward  and a group (usually developers) that focuses inward  — and never the twain shall meet. In LeSS, the one Product Owner has lots of free time to focus outward on customers and their priorities while also being able to spend some time looking inwards to the teams. He acts as a connector, bringing teams and customers/users together so the teams become more <a href="../principles/customer_centric.html">customer focused</a>.</p>
+
+<p>In contrast with other scaled Scrum approaches, it’s possible in LeSS to effectively scale the Product Owner role with just one person because there are fewer roles and positions, and less complexity.</p>
+
+<h2 id="prioritization-over-clarification">Prioritization over Clarification</h2>
+
+<p>There are two key information flows in Scrum related to the Product Owner: (1) prioritizing (ordering) items in the Product Backlog and (2) clarifying items in the Product Backlog. In the first flow (prioritization), information related to profit drivers, strategic customers, business risks, and other business concerns is sought and analyzed. In the second flow (clarification), information is sought to detail the behavior and qualities of items, the user experience, and other feature design concerns.</p>
+
+<p>A LeSS Product Owner focuses on thinking hard about prioritization but collaborates with the teams on clarification. Further, he encourages and helps the teams enter into a direct conversation with true users and customers for clarification. He acts as a connector, not an intermediary.</p>
+
+<p>Why emphasize direct interaction between teams and customers/users? Reasons include: (1) avoiding information loss from handoffs, (2) fostering co-creation of solutions to real customer problems, and (3) improving motivation and empathy for customers by having developers collaborate with them directly.</p>
+
+<p>It’s worth noting that when the teams do most of the clarification work the Product Owner has more time and energy to focus on the big picture, continuously prioritizing and exploring new and strategic opportunities.</p>
+
+<h2 id="find-a-product-owner-given-your-type-of-development">Find a Product Owner Given Your Type of Development</h2>
+
+<h3 id="step-1-know-your-development-type">Step 1: Know Your Development Type</h3>
+
+<p>Finding the right Product Owner depends on knowing the type of development you are doing:</p>
+
+<ul>
+  <li><strong>Product development</strong>—For external customers or a market.</li>
+  <li><strong>Internal (product) development</strong>—For one or more users within the company. The development group is usually called IT or Systems Development.</li>
+  <li><strong>Project development</strong>—Usually for one external customer. The work is organized and contracted as a project of some kind although that does not necessarily mean a fixed scope/date/cost project contract. The development company is usually an outsourcer or systems-integrator. The customer, or client company, includes both the purchasing entity and the users, who are not always in the same department.</li>
+</ul>
+
+<h3 id="step-2-finding-the-right-product-owner">Step 2: Finding the right Product Owner</h3>
+
+<p><strong>Product development</strong>—The company will have either (1) a business unit driving the product initiative (e.g., Retail Banking), or (2) a Product Management department driving the initiative. Traditional Product Management is responsible for customer and competitor analysis, product vision, coarse-grained feature selection and prioritization, product roadmap, and other non-technical activities. They don’t manage the work of a traditional development group.</p>
+
+<p>Where to find a Product Owner for a group adopting LeSS? If there’s a Product Management department, then a Product Manager can be a good choice. Otherwise, look for a person from the business unit that’s driving the initiative. The important thing to keep in mind is that the Product Owner for product development should come from the business side.</p>
+
+<p><strong>Internal (product) development</strong>—A good Product Owner for internal product development in LeSS is (1) from within the group that will use the system, and (2) is closely involved in and deeply experienced in doing the real work that the system will support. They are very close to the real users.</p>
+
+<p><strong>Project development</strong>—The key point for project development is that the Product Owner be from the company receiving the system. As with internal development, they should be involved in and deeply experienced in the hands-on work the system will support, and be close to users.</p>
+
+<p>A common variant for both internal and project development is when the system will be used by many departments. Then, a good choice is an experienced, hands-on individual from one of the major user departments who is interested in taking on the role and has political savvy.</p>
+
+<p>In all cases, a great Product Owner has a passion for the product.</p>
+
+<p>When it is impossible to find the right Product Owner immediately, you can quickly start a LeSS adoption with a <em>temporary</em> Product Owner who understands what’s going on and can perform the mechanics of the role but is not from the business side. Let the teams complete several Sprints under the temporary Product Owner until the major kinks are worked out and — this is important — the development teams can deliver a truly ‘done’, shippable increment (or something close) every Sprint. Why? The product teams will be more likely to find and inspire the right longterm Product Owner if they can show a compelling new capability that offers very tangible business benefit. It’s terribly important that everyone understand that the temporary Product Owner is a placeholder. We often use the term “fake Product Owner” to indicate just how damaging this temporary Product Owner can be. Because the fake PO is not only not the best Product Owner but also he can cause damage trying to fill a role for which he is not qualified. He must be replaced as soon as possible to avoid the risk of creating a second-class product.</p>
+
+<h3 id="step-3-give-authority-and-responsibility-to-a-real-product-owner">Step 3: Give Authority and Responsibility to a Real Product Owner</h3>
+
+<p>Product Owner is not a new name for a traditional project manager who delivers a scope and date contract of work. Rather, a Product Owner must have the independent authority to choose and change content, release dates, priorities, vision, etc. Of course he collaborates with stakeholders, but a real Product Owner has final decision-making authority.</p>
+
+<h2 id="five-relationships">Five Relationships</h2>
+
+<p>The Product Owner needs to understand and work to improve five key relationships that are affected by LeSS adoption:</p>
+
+<ul>
+  <li><strong>Product Owner&lt;–&gt;Teams</strong>
+The teams are there to help the Product Owner create the best possible product for the customer. They need to know what to build next and whether or not what they have already built has hit the mark. The Product Owner needs to know what the teams need and how he can help them.</li>
+  <li><strong>Product Owner&lt;–&gt;Customers</strong>
+The Product Owner and teams are trying to create the best possible product for the customer. The customer needs to know when they will have features they care about, and perhaps the reasoning behind the priorities. Involve them as much as possible by being transparent. The Product Owner needs to learn their real goals or problems with them (or envision something beyond their vision) and collect the information that will help him prioritize well.</li>
+  <li><strong>Teams&lt;–&gt;Customers</strong>
+The teams are trying to create the best possible product for the customer. They need to know the context for features and have detailed domain knowledge. Ideally, teams co-create solutions directly with customers by grasping the customers’ essential (rather than superficial) goals and problems. Teams need to confirm with customers that they fully understand the requirements they are clarifying together.</li>
+  <li><strong>Product Owner&lt;–&gt;Higher Management</strong>
+Higher management beyond the product group (portfolio managers, C-level executives, etc.) should view the Product Owner as having the final accountability and responsibility for product success. He is responsible for making the development status visible and realizing higher management’s (perhaps implicit) mandate to optimize desired impacts (e.g., ROI and market share). The Product Owner, with support from ScrumMasters, engages higher management’s help to improve the organizational design.</li>
+  <li><strong>Product Owner&lt;-&gt;ScrumMasters</strong>
+The relationships above are directly related to “product ownership,” but this one is different. It relates to Product Owner knowledge and behavior. The ScrumMasters need to know the Product Owner’s concerns, questions, and obstacles so they can help. A good ScrumMaster can be a friendly ear or a shoulder to cry on. ScrumMasters educate and feed back so Product Owners can adapt. </li>
+</ul>
+
+<h2 id="less-meetings">LeSS Meetings</h2>
+
+<p>When we introduce LeSS, a frequent question is, “How is one Product Owner going to manage all of those meetings with all of those teams?” Fortunately, the concern behind that question is based on a misunderstanding. The one Product Owner in LeSS only attends single meetings even though there are multiple teams. And the number of team members at those single meetings is manageable. If there are just two teams, everyone can effectively attend and participate. If there are many teams, only two representatives from each team may attend.</p>
+
+<p>What LeSS meetings does the Product Owner attend and what is their average duration in a typical two-week Sprint?</p>
+
+<ul>
+  <li><a href="sprint-planning-one.html">Sprint Planning One</a> - 1 hour.</li>
+  <li><a href="product-backlog-refinement.html">Overall Product Backlog Refinement (PBR)</a> - 4 hours</li>
+  <li><a href="sprint-review.html">Sprint Review</a> - 2 hours.</li>
+  <li><a href="overall-retrospective.html">Overall Retrospective</a> - 1.5 hours.</li>
+</ul>
+
+<p>So the total time spent in LeSS events is, on average, about eight hours in a two-week Sprint.</p>
+
+<p>The Product Owner does not attend the team-specific meetings: <a href="sprint-planning-two.html">Sprint Planning Two</a>, <a href="daily-scrum.html">Daily Scrums</a>, <a href="product-backlog-refinement.html">team PBRs</a>, <a href="retrospective.html">team Retrospectives</a>.</p>
+
+
+            </div>
+            
+            </div>
+          </div>
+          <div class="pagination">
+              
+              
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;2016 LeSS Study. </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+

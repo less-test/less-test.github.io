@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LeSS Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="/css/syntax.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">LeSS Study</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="active visible-xs-block"><a href="/links.html">Links</a></li>
+                    <li class="active"><a href="/archive.html">Archive</a></li>
+                    <li class="active"><a href="/about.html">About</a></li>
+                    <li class="active"><a href="/feed.xml">RSS</a></li>
+                    
+                      <li class="active"><a href="https://github.com/LeSSStudy/works">Github</a></li>
+                    
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div class="sidebar well">
+A LeSS Site for japanease
+</div>
+
+<div class="sidebar well">
+    <h1>Recent Posts</h1>
+    <ul>
+        
+    </ul>
+</div>
+
+<div class="sidebar well">
+<h1>Links</h1>
+<ul>
+  <li><a href="/framework/#">framework</a></li>
+  <li><a href="/principles/#">principles</a></li>
+  <li><a href="/structure/#">structure</a></li>
+  <li><a href="/adoption/#">adoption</a></li>
+  <li><a href="/less-huge/#">less-huge</a></li>
+  <li><a href="/rules/#">rules</a></li>
+</ul>
+
+</div>
+
+        </div>
+        <div class="col-md-9">
+          <div class="article">
+            <div class="well">
+                <h1><a href="/framework/product-backlog-refinement"> - Product Backlog Refinement</a></h1>
+            
+            <div class="post-content">
+            <p>Ongoing Product Backlog Refinement (PBR) is needed within each Sprint to refine items to be ready for future Sprints. Key activities of PBR are (1) splitting big items, (2) detailing items until ready, and (3) estimating. In the spirit of <a href="../principles/empirical_process_control.html">empirical process control</a>, Scrum does not say how to do PBR, though suggests that the Team spend no more than 10% of their Sprint capacity on it. It usually happens “mid-Sprint.”</p>
+
+<p>Note! Refinement of items is not done separately by the <a href="product-owner.html">Product Owner</a> or a business analysis group—doing that would increase the <a href="../principles/lean_thinking.html">lean wastes</a> of hand-off and information scatter. Rather, the Team does this work—and not a subset of the Team, but the whole Team, as Scrum rules prohibit sub-groups dedicated to particular domains such as analysis or testing.</p>
+
+<h2 id="product-backlog-refinement-overview">Product Backlog Refinement Overview</h2>
+
+<p>Product Backlog Refinement is often done in:</p>
+
+<ul>
+  <li>Overall Product Backlog Refinement (shared amount all teams)</li>
+  <li>Team-level Product Backlog Refinement</li>
+  <li>Multi-team Product Backlog Refinement</li>
+</ul>
+
+<figure>
+  <img src="/img/framework/product-backlog-refinement.png" alt="product-backlog-refinement.png" />
+</figure>
+
+<h2 id="overall-product-backlog-refinement">Overall Product Backlog Refinement</h2>
+
+<p>The LeSS rule raises the questions: How to decide which teams are likely to implement which items? And there are the scaling issues just examined: shared understanding, coordination, common work, aligned estimates, and balancing specialization and agility.</p>
+
+<p>An overall PBR session addresses all of these. In brief, hold an overall PBR workshop with representatives before the individual team PBR sessions, to explore which teams might work on which items, and to increase learning and alignment. Attendees include the Product Owner, subject-matter experts, and either all members of all teams or a couple of representatives from each team. Representatives are usually preferred, to keep the meeting smaller and to not have everyone in yet another meeting, though the cost is information handoff and scatter.</p>
+
+<p>Do the following:</p>
+
+<ul>
+  <li>split big items</li>
+  <li>do very lightweight item analysis for basic understanding</li>
+  <li>estimate items</li>
+  <li>identify strongly-related items that suggest shared work, common work, or coordination</li>
+</ul>
+
+<h2 id="team-level-product-backlog-refinement">Team-level Product Backlog Refinement</h2>
+
+<p>When an item will clearly be done by one team and it won’t be too strongly related to other items, then the Product Backlog Refinement is the same as in a one-team Scrum. The team does the refinement themselves, ideally together with users/customer/stakeholders and they inform the Product Owner related to changes (splitting, new estimates) in the Product Backlog.</p>
+
+<h2 id="multi-team-product-backlog-refinement">Multi-team Product Backlog Refinement</h2>
+
+<p>Multiteam PBR is when more than one team are (literally) in the same room at the same time doing PBR. Attendees include subject-matter experts, and either all members of the participating teams or a couple of representatives from each.</p>
+
+<p>How is it different from overall PBR? Overall PBR includes participation from all teams, but multiteam PBR may involve as few as two teams. It is also more likely to include all members rather than representatives.</p>
+
+<p>Do multiteam PBR to increase shared understanding and exploit coordination opportunities when a group of teams are working on a common family of items or strong-related items.</p>
+
+<p>Multiteam PBR may be a complement or replacement to team PBR.</p>
+
+            </div>
+            
+            </div>
+          </div>
+          <div class="pagination">
+              
+              
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;2016 LeSS Study. </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+

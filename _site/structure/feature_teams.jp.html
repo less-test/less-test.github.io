@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LeSS Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="/css/syntax.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">LeSS Study</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="active visible-xs-block"><a href="/links.html">Links</a></li>
+                    <li class="active"><a href="/archive.html">Archive</a></li>
+                    <li class="active"><a href="/about.html">About</a></li>
+                    <li class="active"><a href="/feed.xml">RSS</a></li>
+                    
+                      <li class="active"><a href="https://github.com/LeSSStudy/works">Github</a></li>
+                    
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div class="sidebar well">
+A LeSS Site for japanease
+</div>
+
+<div class="sidebar well">
+    <h1>Recent Posts</h1>
+    <ul>
+        
+    </ul>
+</div>
+
+<div class="sidebar well">
+<h1>Links</h1>
+<ul>
+  <li><a href="/framework/#">framework</a></li>
+  <li><a href="/principles/#">principles</a></li>
+  <li><a href="/structure/#">structure</a></li>
+  <li><a href="/adoption/#">adoption</a></li>
+  <li><a href="/less-huge/#">less-huge</a></li>
+  <li><a href="/rules/#">rules</a></li>
+</ul>
+
+</div>
+
+        </div>
+        <div class="col-md-9">
+          <div class="article">
+            <div class="well">
+                <h1><a href="/structure/feature_teams.jp"> - フィーチャーチーム</a></h1>
+            
+            <div class="post-content">
+            <!---
+A feature team, shown in Figure 1, is a long-lived, cross-functional, cross-component team that completes many end-to-end customer features—one by one.
+--->
+<p>図1に示すフィーチャーチームは、ひとつづつ、たくさんの顧客のフィーチャーをエンドツーエンドで作り上げる、寿命が長く、機能横断的で、コンポーネント横断チームです。</p>
+
+<figure>
+  <img src="/img/feature_teams/xfeature_team.png" alt="feature_team.png" />
+  <figcaption>図1. フィーチャーチーム</figcaption>
+</figure>
+
+<!---
+The characteristics of a feature team are listed below:
+--->
+<p>フィーチャーチームの特徴は以下のとおり:</p>
+
+<!---
+* long-lived—the team stays together so that they can ‘jell’ for higher performance; they take on new features over time
+* cross-functional and cross-component
+* ideally, co-located
+* work on a complete customer-centric feature, across all components and disciplines (analysis, programming, testing, …)
+* composed of generalizing specialists
+* in Scrum, typically 7 ± 2 people
+--->
+<ul>
+  <li>長寿命 - チームは、より高いパフォーマンスを出すために、一緒にいます</li>
+  <li>機能横断的でコンポーネント横断的</li>
+  <li>理想的には同じ場所にいる</li>
+  <li>全てのコンポーネントや領域(分析、プログラミング、テスト)を超え、完全なる顧客中心のフィーチャーで作業する</li>
+  <li>一般的に専門家で構成される</li>
+  <li>スクラムでは、通常は7±2人</li>
+</ul>
+
+<!---
+Applying modern engineering practices—especially continuous integration—is essential when adopting feature teams. Continuous integration facilitates shared code ownership, which is a necessity when multiple teams work at the same time on the same components.
+--->
+<p>モダンなエンジニアプラクティスを適用する - フィーチャーチームを採用する場合は、特に継続的インテグレーションが不可欠です。
+継続的インテグレーションは、複数のチームが同じコンポーネントを同時に作業する場合に必須であるコードの共同所有を容易にします。</p>
+
+<!---
+A common misunderstanding: every member of a feature team needs to know the whole system. Not so, because
+--->
+<p>共通の誤解:フィーチャーチームのすべてのメンバーは、システム全体を知る必要があります。
+あながち間違いではないが、理由は</p>
+
+<!---
+* The team as a whole—not each individual member—requires the skills to implement the entire customer-centric feature. These include component knowledge and functional skills such as test, interaction design, or programming. But within the team, people still specialize… preferably in multiple areas.
+* Features are not randomly distributed over the feature teams. The current knowledge and skills of a team are factored into the decision of which team works on which features.
+--->
+<ul>
+  <li>チーム全体 - 各チームメンバーではない - 顧客中心フィーチャー全体を実装するためのスキルを必要とします。
+これらスキルは、コンポーネントの知識、テストなどの機能スキル、インタラクションデザイン、プログラミングを含みます。
+しかしながら、チーム内でまだ特化してしまう…できれば複数の領域にしてください。</li>
+</ul>
+
+<!---
+Within a feature team organization, when specialization becomes a constraint…learning happens.
+--->
+<p>フィーチャーチームの組織では、分業が制約になると…学習が行われる。</p>
+
+<!---
+A feature team organization exploits speed benefits from specialization, as long as requirements map to the skills of the teams.
+But when requirements do not map to the skills of the teams, learning is ‘forced,’ breaking the overspecialization constraint.
+Feature teams balance specialization and flexibility.
+--->
+<p>フィーチャーチームの組織では、要求とチームのスキルが一致するのであれば、分業によるスピードの利点を有効に活用する。
+しかし、要求とチームのスキルが一致しない場合は、学習が’強制的に’過度の専門化の制約を壊します。
+フィーチャーチームは、専門性と柔軟性のバランスをとる。</p>
+
+<!---
+## component vs. feature teams
+
+The table below and Figure 2 show the differences between feature teams and more traditional component teams.
+--->
+<p>## コンポーネントチーム vs フィーチャーチーム</p>
+
+<p>以下の表および図2は、フィーチャーチームと伝統的なコンポーネントチームとの違いを示しています。</p>
+
+<!---
+|component team	|feature team|
+|optimized for delivering the maximum number of lines of code|	optimized for delivering the maximum customer value|
+|focus on increased individual productivity by implementing ‘easy’ lower-value features|	focus on high-value features and system productivity (value throughput)|
+|responsible for only part of a customer-centric feature|	responsible for complete customer-centric feature|
+|traditional way of organizing teams — follows Conway’s law|	‘modern’ way of organizing teams — avoids Conway’s law|
+|leads to ‘invented’ work and a forever-growing organization|	leads to customer focus, visibility, and smaller organizations|
+|dependencies between teams leads to additional planning|	minimizes dependencies between teams to increase flexibility|
+|focus on single specialization|	focus on multiple specializations|
+|individual/team code ownership	|shared product code ownership|
+|clear individual responsibilities|	shared team responsibilities|
+|results in ‘waterfall’ development|	supports iterative development|
+|exploits existing expertise; lower level of learning new skills|	exploits flexibility; continuous and broad learning|
+|works with sloppy engineering practices—effects are localized|	requires skilled engineering practices—effects are broadly visible|
+|contrary to belief, often leads to low-quality code in component|	provides a motivation to make code easy to maintain and test|
+|seemingly easy to implement|	seemingly difficult to implement|
+--->
+
+<table>
+  <tbody>
+    <tr>
+      <td>コンポーネントチーム</td>
+      <td>フィーチャーチーム</td>
+    </tr>
+    <tr>
+      <td>コードの行数を最大化するために最適化</td>
+      <td>顧客価値を最大化するために最適化</td>
+    </tr>
+    <tr>
+      <td>‘簡単に’低い価値のフィーチャーを実装することにより増えた、個人の生産性にフォーカスする</td>
+      <td>価値の高いフィーチャーや、システムの生産性(価値のスループット)にフォーカスする</td>
+    </tr>
+    <tr>
+      <td>顧客中心のフィーチャーの一部分だけに責任を持つ</td>
+      <td>顧客中心のフィーチャー全てに責任を持つ</td>
+    </tr>
+    <tr>
+      <td>コンウェイの法則に従う伝統的なチーム編成方法</td>
+      <td>チーム編成の’近代的な’方法はコンウェイの法則を回避する</td>
+    </tr>
+    <tr>
+      <td>‘生み出す’作業と永遠に成長する組織につながる</td>
+      <td>顧客重視、可視性、中小規模の組織につながる</td>
+    </tr>
+    <tr>
+      <td>チームの依存関係は計画の追加につながる</td>
+      <td>柔軟性を高めるためにチーム間の依存関係を最小化する</td>
+    </tr>
+    <tr>
+      <td>単一の専門分野にフォーカス</td>
+      <td>複数の専門分野にフォーカス</td>
+    </tr>
+    <tr>
+      <td>個人/チームでのコードの所有</td>
+      <td>プロダクトコードの共同所有</td>
+    </tr>
+    <tr>
+      <td>個人の責任</td>
+      <td>チームの責任</td>
+    </tr>
+    <tr>
+      <td>ウォーターフォール開発の結果</td>
+      <td>反復開発をサポート</td>
+    </tr>
+    <tr>
+      <td>既存の専門知識を活用;新しいスキルの低レベルの学習</td>
+      <td>柔軟性を活用;継続した幅広い学習</td>
+    </tr>
+    <tr>
+      <td>ずさんなエンジニアリングの実践と連携 - 効果が局所的</td>
+      <td>熟練したエンジニアリングの実践が求められる - 効果は広く明らか</td>
+    </tr>
+    <tr>
+      <td>信念に反して、コンポーネントの低品質なコードにつながる</td>
+      <td>メンテナンスとテストを容易にするためのコードを書く動機をもたらす</td>
+    </tr>
+    <tr>
+      <td>実装が一見簡単</td>
+      <td>実装が一見難しい</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure>
+  <img src="img/feature_teams/xcomponent_vs_feature_teams.png" alt="component_vs_feature_teams.png" />
+  <figcaption>図2. コンポーネントチーム vs フィーチャーチーム</figcaption>
+</figure>
+
+<!---
+The table below summarizes the differences between feature teams and conventional project or feature groups.
+--->
+<p>以下の表は、フィーチャーチームと従来のプロジェクトやフィーチャーグループとの違いをまとめたものです。</p>
+
+<!---
+|feature team|	feature group or feature project|
+|stable team that stays together for years and works on many features|	temporary group of people created for one feature or project|
+|shared team responsibility for all the work|	individual responsibility for ‘their’ part based on specialization|
+|self-managing team	|controlled by a project manager|
+|results in a simple single-line organization (no matrix!)|	results in a matrix organization with resource pools|
+|team members are dedicated—100% allocated—to the team|	members are part-time on many projects because of specialization|
+--->
+<p>|フィーチャーチーム|フィーチャーグループ or フィーチャープロジェクト|
+|年間を通じて一緒にたくさんのフィーチャーで作業を維持する安定したチーム|1つのフィーチャーまたはプロジェクトのために集められた一時的なグループ|
+|全ての作業において責任を共有するチーム|専門に基づく個人の責任|
+|自己組織化されたチーム|プロジェクトマネージャーに管理される|
+|シンプルな単一ライン組織における結果(マトリックスではない)|リソースプールを持つマトリックス組織の結果|
+|チームメンバーは専任(100%割り当てられる)チーム|メンバーは専門であるがゆえに多くのプロジェクトで作業するパートタイム|</p>
+
+<!---
+Most drawbacks of component teams are explored in the “Feature Teams” chapter of Scaling Lean & Agile Development, Figure 3 summarizes some of these.
+--->
+
+<p>コンポーネントチームの欠点の多くは、”フィーチャーチーム”のスケーリングリーン＆アジャイル開発の章で検討されている。図3は、これらのいくつかをまとめたものです。</p>
+
+<!---
+What is sometimes not seen is that a component team structure reinforces sequential development (a ‘waterfall’ or V-model), with many queues with varying-sized work packages, high levels of WIP, many handoffs, and increased multitasking and partial allocation.
+--->
+<p>見えないこともあるが、コンポーネントチームの構造は、シーケンシャル開発(ウォーターフォールやV字モデル)を強化する。それは、多くの待ち行列や可変サイズの作業の塊、たくさんのWIP、多くの情報伝達、増大するマルチタスク、部分的な割り当てをもたらす。</p>
+
+<!---
+## Choose Component Teams or Feature Teams?
+--->
+<p>## コンポーネントチームとフィーチャーチームとどちらを選ぶ？</p>
+
+<!---
+A pure feature team organization is ideal from the value-delivery and organizational-flexibility perspective. Value and flexibility, however, are not the only criterion for organizational design, and many organizations therefore end up with a hybrid—especially during a transition from component to feature teams. Caution: hybrid models have the drawbacks from both worlds and can be…painful.
+--->
+
+<p>純粋なフィーチャーチームの組織は、価値を届けるのと組織の柔軟性の観点から理想的です。
+価値と柔軟性は、しかしながら、組織設計のための唯一の基準ではなく、多くの組織は、特にコンポーネントチームからフィーチャーチームへの移行中にハイブリッドで終わる。
+注意:ハイブリッドモデルでは、両者の欠点と痛みを伴う…</p>
+
+<p>A frequently expressed reason in favor of a hybrid organization is the need to build infrastructure, construct reusable components, or clean up code—work traditionally done within component teams. But these activities can also be done in a pure feature team organization—without establishing permanent component teams. How? By adding infrastructure, reusable components, or cleanup work to the Product Backlog and giving it to an existing feature team—as if it were a customer-centric feature. The feature team temporarily—for as long as the Product Owner wishes—does such work and then returns to building customer-centric features.</p>
+
+<h2 id="transitioning-to-feature-teams">Transitioning to Feature Teams</h2>
+
+<p>Different organizations require different transition strategies when changing from component to feature teams. We have experience with many strategies that worked…and failed in a different context. A safe—but slow—transitioning strategy is to establish one feature team within the existing component team organization. After this team performs well, a second feature team is formed. This continues gradually at the speed the organization is comfortable with. This is shown in Figure 4.</p>
+
+<h2 id="recommended-reading">Recommended Reading</h2>
+
+<ul>
+  <li>Feature Team Primer
+This article originally appeared as the <a href="http://www.featureteamprimer.com/">Feature Team Primer</a></li>
+  <li>Feature Teams chapter of <a href="http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961">Scaling Agile &amp; Lean Development</a>
+This 60-page analysis of feature and component teams is also <a href="http://www.infoq.com/resource/articles/scaling-lean-agile-feature-teams/en/resources/feature%20teams_%20infoq_%20final.pdf">available online</a></li>
+  <li><a href="http://www.amazon.com/Dynamics-Software-Development-Jim-McCarthy/dp/1556158238">Dynamics of Software Development by Jim McCarthy</a>
+Originally published in 1995 but republished in 2008. Jim’s book is a true classic on software development. Already in 1995 it emphasized feature teams. The rest of the book is stuffed with insightful tips related to software development.</li>
+  <li><a href="http://dl.acm.org/citation.cfm?id=377525">“XP and Large Distributed Software Projects” by Karlsson and Andersson.</a>
+This early large-scale agile development article is published in Extreme Programming Perspectives. It is a insightful and much under-appreciated article describing the strong relationship between feature teams and continuous integration.</li>
+  <li><a href="http://www.melconway.com/research/committees.html">“How Do Committees Invent?” by Mel Conway.</a>
+This 40-year article is as insightful today as it was 40 years ago. It is available via the authors website at www.melconway.com.</li>
+</ul>
+
+            </div>
+            
+            </div>
+          </div>
+          <div class="pagination">
+              
+              
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;2016 LeSS Study. </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
