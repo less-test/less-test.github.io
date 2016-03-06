@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign sorted_pages = (site.pages | sort: 'order') %}
+{% for file in sorted_pages %}
+{% if file.path contains page.directory %}
+{% unless file.path contains "index.md" %}
+<div class="article">
+    <div class="well">
+        <h1><a href="{{ site.baseurl}}{{ file.url }}">{{ file.date | date: "%b %-d, %Y" }} - {{ file.title }}</a></h1>
+        {% if site.comments == true and file.comments == true and site.disqus != '' %}
+          <p class="author"><a href="{{ site.baseurl }}{{ file.url }}/#disqus_thread">Comments</a></p>
+        {% endif %}
+        <div class="content">
+            {{ file.content }}
+        </div>
+    </div>
+</div>
+{% endunless %}
+{% endif %}
+{% endfor %}
